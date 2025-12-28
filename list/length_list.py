@@ -5,4 +5,4 @@ def list_length(l):
     return count
 
 li = [1,2,3,4,5]
-print(list_length(li))
+# print(list_length(li))
