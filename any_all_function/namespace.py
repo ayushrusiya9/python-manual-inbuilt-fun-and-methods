@@ -1,6 +1,6 @@
 # namespace
-# 1. locals
-# 2. globals
+# 1. locals()
+# 2. globals()
 # 3. builtin
 
 import builtins
