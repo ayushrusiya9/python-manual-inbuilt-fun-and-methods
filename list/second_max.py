@@ -5,7 +5,8 @@ def second_max(l):
     for i in l:
         if max_num1 < i:
             max_num1 = i
-    max_num2 = None
+    max_num2 = None 
+    
     for j in l:
         if max_num1 != j:
             if max_num2 is None or j > max_num2:
