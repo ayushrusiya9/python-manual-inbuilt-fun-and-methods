@@ -10,3 +10,9 @@
 # private -> __X = 10/ def __xyz():, na to bahar na toh chil ma
 
 # name mangling -> _CLASSNAME__PRIVATEVARIABLE/METHOD
+from test import A
+class C(A):
+    pass
+
+# print(dir(A))
+print(C()._A__xyz())
