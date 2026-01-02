@@ -1,3 +1,5 @@
+## oops, class, objects, 4 pillar 
+
 #abstract class 
 #-> jab hogi ye abstaract clas jab isme ABC inherit ho or, isme abstract methods hot.
 
