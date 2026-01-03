@@ -7,5 +7,6 @@
 x = eval(input())
 y = eval(input())
 print(type(x))
+print(type(y))
 
 # commnd cosmazation
