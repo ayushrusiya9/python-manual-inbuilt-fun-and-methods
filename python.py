@@ -5,6 +5,7 @@
 # print(x.split())
 
 x = eval(input())
+y = eval(input())
 print(type(x))
 
 # commnd cosmazation
