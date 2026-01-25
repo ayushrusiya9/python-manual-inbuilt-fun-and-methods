@@ -1,3 +1,6 @@
+import time
+start = time.time()
+
 import sys
 
 a = [1,2,3]
@@ -45,3 +48,27 @@ value = [1,2,3]
 keyValue = {k:v for k,v in zip(key,value)}
 print(keyValue)
 print(zip(key,value))
+
+# iterators analogy
+
+l = [1,2,3]
+it = iter(l)
+print(next(it))
+print('hello_____')
+print(next(it))
+
+# ganerator analogy
+
+def gen():
+    for i in range(5):
+        yield i
+
+g = gen()
+
+
+print(next(g))
+print(next(g))
+
+
+endtime = time.time()
+print("time taken:", endtime - start)
